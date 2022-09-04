@@ -16,7 +16,7 @@ void IntervalTimerEx::end()
 }
 
 // generate and preset the callback storage
-Callback* IntervalTimerEx::callbacks[4]{
+callback_t* IntervalTimerEx::callbacks[4]{
     nullptr,
     nullptr,
     nullptr,
@@ -24,7 +24,7 @@ Callback* IntervalTimerEx::callbacks[4]{
 };
 
 // those functions will be attached to the underlying intervalTimer
-relay_t IntervalTimerEx::relays[4]{
+IntervalTimerEx::relay_t IntervalTimerEx::relays[4]{
     [] { callbacks[0]->invoke(); },
     [] { callbacks[1]->invoke(); },
     [] { callbacks[2]->invoke(); },
