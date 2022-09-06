@@ -1,4 +1,4 @@
-#include "callbackHelper.h"
+#include "CallbackHelper.h"
 #include "IntervalTimerEx.h"
 
 IntervalTimerEx::~IntervalTimerEx()
@@ -16,7 +16,7 @@ void IntervalTimerEx::end()
 }
 
 // generate and preset the callback storage
-callback_t* IntervalTimerEx::callbacks[4]{
+IntervalTimerEx::callback_t* IntervalTimerEx::callbacks[4]{
     nullptr,
     nullptr,
     nullptr,
