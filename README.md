@@ -1,7 +1,7 @@
 # IntervalTimerEx
 
-IntervalTimerEx is a lightweight extension of the stock IntervalTimer.
-It extends the standard Teensy IntervalTimer to accept more or less anything which can be called as callback. E.g. free functions, static member functions, lambda expressions and functors. IntervalTimerEx uses the underlying Teensyduino mechanisms and bookkeeping and can be mixed with the standard IntervalTimer.
+IntervalTimerEx is a lightweight extension of the stock Teensyduino IntervalTimer.
+It extends the standard Teensy IntervalTimer to accept more or less anything which can be called as callback. E.g. free functions, static member functions, lambda expressions (capturing and non-capturing) and functors. IntervalTimerEx uses the underlying Teensyduino mechanisms and bookkeeping and can be mixed with the standard IntervalTimer.
 
 Installation through the Arduino Library Manager or the PIO registry.
 
