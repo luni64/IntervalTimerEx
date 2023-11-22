@@ -15,7 +15,7 @@
     },
     "dependencies":
     {
-    "CallbackHelper": "https://github.com/luni64/CalbackHelper.git#>0.1.2"
+    "CallbackHelper": "https://github.com/luni64/CallbackHelper.git#v0.1.2"
     },
     "homepage": "https://github.com/luni64/IntervalTimerEx",
     "version": "0.1.0",
